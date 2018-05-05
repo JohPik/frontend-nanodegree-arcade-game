@@ -1,6 +1,38 @@
-frontend-nanodegree-arcade-game
-===============================
+# Clasic Arcade Game Clone
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+This web app is the third project of Udacity's Front-end Nanodegree. It is a personal version of the classic Arcade Game "Frogger".
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Before Starting
+
+To use the app, download the [Github repository](https://github.com/JohPik/frontend-nanodegree-arcade-game.git).
+
+### Prerequisites
+
+to play the game you will need a modern browser with CSS and Javascript enabled.
+
+## Play the game
+
+### Start the game
+Open index.html. The games start as soon as the files are loaded to the browser.
+
+### How the win
+The player wins once the charater has crossed all the blocks and reached the water without touching any ennemies. 
+
+If the player touch an ennemy the character position is reset. Every time the player wins the level increase, and one new enemy is added to the game.
+
+
+
+### restart the game
+If you need to restart the Game, please reload the page in your browser.
+
+
+## Built With
+* HTML
+* HTML5 Canvas
+* CSS
+* Javascript
+
+
+## Authors
+
+**Johan Piquet** - *forked from* - [richard kalehoff](https://github.com/udacity/frontend-nanodegree-arcade-game).
