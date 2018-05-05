@@ -48,7 +48,7 @@ Enemy.prototype.render = function() {
 var Player = function() {
     this.x = 200; //200
     this.y = 380; //380
-    this.sprite = 'images/char-boy.png';
+    this.sprite = 'images/powerRangerRed.png';
 };
 
 // Draw the player on the screen
